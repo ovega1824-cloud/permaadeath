@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="permadeath"
+version="1.0.0"
+displayName="Permadeath"
+description='''
+Cada dia de Minecraft se activa al azar uno de 50 cambios de dificultad.
+Animacion y sonido para todos los jugadores, animacion al morir y un libro con los cambios activos (tecla G).
+Inicia con /permadeath start.
+'''
+
+[[dependencies.permadeath]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.permadeath]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

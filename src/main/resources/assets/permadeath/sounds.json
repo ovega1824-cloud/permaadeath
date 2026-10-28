@@ -1,0 +1,4 @@
+{
+  "change": { "sounds": [ { "name": "permadeath:change", "stream": false } ] },
+  "death":  { "sounds": [ { "name": "permadeath:death",  "stream": false } ] }
+}
